@@ -638,9 +638,27 @@ hr {
 		max-width: 270px;
 		height: auto;
 	}
+	.logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: -25px;
+		width: 110px;
+		height: 110px;
+	}
 }
 @media screen and (max-width: 310px) {
 	.title {
 		transform: translateX(-0px);
+	}
+	.logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: -25px;
+		width: 100px;
+		height: 100px;
 	}
 }
