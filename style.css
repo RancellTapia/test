@@ -55,6 +55,9 @@ body {
 	line-height: 30px;
 	color: #565d67;
 }
+.paragraph-pg5 {
+	font-size: 22px;
+}
 
 .paragraph-min {
 	text-align: justify;
@@ -558,6 +561,9 @@ hr {
 	}
 	.paragraph-min {
 		padding: 0px 20px;
+	}
+	.paragraph-pg5 {
+		font-size: 14px;
 	}
 
 	.container-card {
