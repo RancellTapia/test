@@ -12,16 +12,6 @@ body {
 	width: 205px;
 	height: 205px;
 }
-/* 
-.logo {
-	margin-top: 20px;
-	width: 205px;
-	height: 205px;
-	background-image: url('./image/Yoyo.png');
-	background-repeat: no-repeat;
-	margin-left: auto;
-	margin-right: auto;
-} */
 
 .title {
 	text-align: center;
@@ -31,7 +21,7 @@ body {
 	font-weight: bold;
 	margin-top: 30px;
 	margin-bottom: 15px;
-	font-size: 55px;
+	font-size: 45px;
 	color: #565d67;
 }
 
@@ -523,6 +513,9 @@ hr {
 	.title-text {
 		font-size: 28px;
 	}
+	.text {
+		margin-bottom: -12px;
+	}
 	.box {
 		max-width: 320px;
 	}
@@ -623,7 +616,8 @@ hr {
 		margin-top: 40px;
 	}
 	.code-image {
-		margin-top: 20px;
+		margin-top: 0px;
+		margin-bottom: -15px;
 		max-width: 280px;
 		height: auto;
 	}
@@ -634,7 +628,7 @@ hr {
 		transform: translateX(-10px);
 	}
 	.code-image {
-		margin-top: 20px;
+		margin-top: 0px;
 		max-width: 270px;
 		height: auto;
 	}
