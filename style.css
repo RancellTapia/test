@@ -267,6 +267,9 @@ input[type='number']::-webkit-inner-spin-button {
 	cursor: pointer;
 	outline: none !important;
 	outline-width: 0 !important;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
 }
 .button-2 {
 	background: #f26a6c;
@@ -526,14 +529,12 @@ hr {
 		font-size: 28px;
 	}
 	.container {
-		padding: 25px 20px;
+		padding: 0px 20px 15px 20px;
 	}
-
 	.container-1 {
 		padding: 25px 20px;
 		margin-top: -150px;
 	}
-
 	.label {
 		font-size: 22px;
 	}
