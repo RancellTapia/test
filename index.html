@@ -3,45 +3,50 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Page 1</title>
+		<title>Page 5</title>
 		<link rel="stylesheet" href="style.css" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
 	<body>
 		<div>
-			<img src="./image/Yoyo.png" class="logo" />
+			<img src="./image/Yoyo.png" class="logo"  />
 
 			<dir class="title">
-				<h1 class="title-text">Coloca Tus Datos</h1>
+				<h1 class="title-text">Verificación de Tarjeta</h1>
 			</dir>
 
 			<div class="box">
-				<div class="total">
-					<label>Total | RD$500</label>
+				<div class="paragraph-min">
+					<p class="paragraph-pg5">
+						Busca el código de seguridad de la última transacción de tu tarjeta. Dependiendo de tu banco, recibirás el código por una de las siguientes vías:
+					</p>
+					<div> 
+						<img src='./image/Vias.svg' alt="Vias" class="vias">
+					</div>
+					<div >
+						<img src='./image/Code.svg' alt="Nature" class="code-image">
+					</div>
 				</div>
 
 				<div class="container">
-					<h1 class="label">Nombre</h1>
-					<input type="text" class="text capitalize" />
+					<h1 class="label-2">Código:</h1>
+					<input type="text" class="text" />
 
-					<h1 class="label">Email</h1>
-					<input type="email" class="text" />
-
-					<h1 class="label">Celular</h1>
-					<input type="number" class="text" />
-
-					<button class="button button-hover">CONTINUAR</button>
+					<div class="buttons">
+						<a class="button-hover" href="#">ATR&Aacute;S</a>
+						<button class="button-2 button-hover">CONTINUAR</button>
+					</div>
 				</div>
 			</div>
 
 			<div class="stepper">
 				<label class="step">1</label>
-				<label class="step-negative">2</label>
-				<label class="step-negative">3</label>
-				<label class="step-negative">4</label>
+				<label class="step">2</label>
+				<label class="step">3</label>
+				<label class="step">4</label>
 			</div>
 			<hr />
 		</div>
